@@ -4,6 +4,6 @@ const Tuitschema = mongoose.Schema({
                                    likes: Number,
                                    liked: Boolean,
                                     dislikes: Number,
-                                    disliked: Boolean,
+                                    disliked: Boolean
                                }, {collection: 'tuits'});
 export default Tuitschema;
