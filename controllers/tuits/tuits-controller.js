@@ -2,7 +2,7 @@ import * as tuitDao from "./tuits-dao.js"
 
 const createTuit = async (req, res) => {
     const newTuit = req.body
-    newTuit.likes = 1
+    newTuit.likes = 0
     newTuit.dislikes = 0
     newTuit.replies = 0
     newTuit.retuits = 0
